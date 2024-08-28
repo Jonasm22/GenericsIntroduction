@@ -4,7 +4,22 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var ProductOne = new Product();
+            var ProductTwo = new Product();
+
+           var result =  Comparer.AreEqual(ProductOne, ProductTwo);
+            Console.WriteLine(result);
         }
+    
+        public class Product()
+        {
+            
+
+
+
+
+        }
+    
+    
     }
 }

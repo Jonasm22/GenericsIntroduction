@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constrains", "Constrains\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericContrainsMethod", "GenericContrainsMethod\GenericContrainsMethod.csproj", "{CED78988-296A-49F4-9CE7-934269E3FEA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericIntefaces", "GenericIntefaces\GenericIntefaces.csproj", "{729A0691-7906-476F-AEDF-0039A6699064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CED78988-296A-49F4-9CE7-934269E3FEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CED78988-296A-49F4-9CE7-934269E3FEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CED78988-296A-49F4-9CE7-934269E3FEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729A0691-7906-476F-AEDF-0039A6699064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729A0691-7906-476F-AEDF-0039A6699064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729A0691-7906-476F-AEDF-0039A6699064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729A0691-7906-476F-AEDF-0039A6699064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
