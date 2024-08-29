@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntroduction", "GenericsIntroduction\GenericsIntroduction.csproj", "{21E18BE8-44C9-4E1C-AC89-7F214D3C0BB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntroduction", "GenericsIntroduction\GenericsIntroduction.csproj", "{21E18BE8-44C9-4E1C-AC89-7F214D3C0BB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleGeneric", "MultipleGeneric\MultipleGeneric.csproj", "{2CE523A2-3C02-4F7B-AF87-C605B08A09AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleGeneric", "MultipleGeneric\MultipleGeneric.csproj", "{2CE523A2-3C02-4F7B-AF87-C605B08A09AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethodsWithOutGenericClass", "GenericMethodsWithOutGenericClass\GenericMethodsWithOutGenericClass.csproj", "{09E4B990-C1CF-4DBB-9E63-5DDF11CF980E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMethodsWithOutGenericClass", "GenericMethodsWithOutGenericClass\GenericMethodsWithOutGenericClass.csproj", "{09E4B990-C1CF-4DBB-9E63-5DDF11CF980E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constrains", "Constrains\Constrains.csproj", "{37234E93-24B1-44CE-A184-AF7ECD2094F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constrains", "Constrains\Constrains.csproj", "{37234E93-24B1-44CE-A184-AF7ECD2094F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericContrainsMethod", "GenericContrainsMethod\GenericContrainsMethod.csproj", "{CED78988-296A-49F4-9CE7-934269E3FEA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericContrainsMethod", "GenericContrainsMethod\GenericContrainsMethod.csproj", "{CED78988-296A-49F4-9CE7-934269E3FEA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericIntefaces", "GenericIntefaces\GenericIntefaces.csproj", "{729A0691-7906-476F-AEDF-0039A6699064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericIntefaces", "GenericIntefaces\GenericIntefaces.csproj", "{729A0691-7906-476F-AEDF-0039A6699064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionGenericDelegate", "ActionGenericDelegate\ActionGenericDelegate.csproj", "{AA83CF0C-8661-46FA-BECC-79DB4DD231D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseDelegates", "ExerciseDelegates\ExerciseDelegates.csproj", "{918D78DD-F8F0-4656-AD13-39BBA7402F23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{729A0691-7906-476F-AEDF-0039A6699064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{729A0691-7906-476F-AEDF-0039A6699064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{729A0691-7906-476F-AEDF-0039A6699064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA83CF0C-8661-46FA-BECC-79DB4DD231D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA83CF0C-8661-46FA-BECC-79DB4DD231D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA83CF0C-8661-46FA-BECC-79DB4DD231D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA83CF0C-8661-46FA-BECC-79DB4DD231D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918D78DD-F8F0-4656-AD13-39BBA7402F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918D78DD-F8F0-4656-AD13-39BBA7402F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918D78DD-F8F0-4656-AD13-39BBA7402F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918D78DD-F8F0-4656-AD13-39BBA7402F23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
